@@ -1,0 +1,16 @@
+/home/jegorjegor/programming/c#/Exceptions/part1/bin/Debug/net5.0/part1
+/home/jegorjegor/programming/c#/Exceptions/part1/bin/Debug/net5.0/part1.deps.json
+/home/jegorjegor/programming/c#/Exceptions/part1/bin/Debug/net5.0/part1.runtimeconfig.json
+/home/jegorjegor/programming/c#/Exceptions/part1/bin/Debug/net5.0/part1.runtimeconfig.dev.json
+/home/jegorjegor/programming/c#/Exceptions/part1/bin/Debug/net5.0/part1.dll
+/home/jegorjegor/programming/c#/Exceptions/part1/bin/Debug/net5.0/ref/part1.dll
+/home/jegorjegor/programming/c#/Exceptions/part1/bin/Debug/net5.0/part1.pdb
+/home/jegorjegor/programming/c#/Exceptions/part1/obj/Debug/net5.0/part1.csproj.AssemblyReference.cache
+/home/jegorjegor/programming/c#/Exceptions/part1/obj/Debug/net5.0/part1.GeneratedMSBuildEditorConfig.editorconfig
+/home/jegorjegor/programming/c#/Exceptions/part1/obj/Debug/net5.0/part1.AssemblyInfoInputs.cache
+/home/jegorjegor/programming/c#/Exceptions/part1/obj/Debug/net5.0/part1.AssemblyInfo.cs
+/home/jegorjegor/programming/c#/Exceptions/part1/obj/Debug/net5.0/part1.csproj.CoreCompileInputs.cache
+/home/jegorjegor/programming/c#/Exceptions/part1/obj/Debug/net5.0/part1.dll
+/home/jegorjegor/programming/c#/Exceptions/part1/obj/Debug/net5.0/ref/part1.dll
+/home/jegorjegor/programming/c#/Exceptions/part1/obj/Debug/net5.0/part1.pdb
+/home/jegorjegor/programming/c#/Exceptions/part1/obj/Debug/net5.0/part1.genruntimeconfig.cache
