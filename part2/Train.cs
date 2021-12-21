@@ -27,5 +27,11 @@ namespace part2
         {
             return t1.Vrotpravleniya != t2.Vrotpravleniya ? true : false;
         }
+
+        public override string ToString()
+        {
+            return $"Айди поезда: {Idpoezda}\nПункт назначения: {Punktnaznach}\nВремя отправления: " +
+                   $"{Vrotpravleniya.ToShortDateString()} {Vrotpravleniya.ToShortTimeString()}";
+        }
     }
 }
