@@ -29,12 +29,14 @@ namespace part2
             try
             {
                 Console.WriteLine("Введите айди рейса для поиска рейсов: ");
-                string id = Console.ReadLine();
+                var id = Console.ReadLine();
                 Console.WriteLine("\n" + station.FindRaceByIndex(id) + "\n");
                 Console.WriteLine("Введите дату для поиска рейсов после введённой даты: ");
                 var dt = Convert.ToDateTime(Console.ReadLine());
                 Console.WriteLine("\n"+station.FindRacesAfterNecessaryDateTime(dt)+"\n");
-                
+                Console.WriteLine("Введите пункт назначения для поиска рейсов: ");
+                var destination = Console.ReadLine();
+                Console.WriteLine("\n"+station.FindRacesByNecessaryDestination(destination)+"\n");
             }
             catch (ArgumentException ex)
             {
