@@ -12,6 +12,7 @@ namespace part2
         {
             this.trains = trains;
         }
+        public Station(){}
 
         public string FindRaceByIndex(string index)
         {
@@ -30,7 +31,7 @@ namespace part2
             string str = "";
             foreach (var item in trains)
             {
-                if (item.Vrotpravleniya < dt)
+                if (item.Vrotpravleniya > dt)
                     str += item.ToString() + "\n";
             }
 
@@ -38,6 +39,7 @@ namespace part2
                 return str;
             else
                 throw new RacesDontExistAfterNecessaryDateTime("Нет рейсов после введённого времени");
+
         }
 
         public string FindRacesByNecessaryDestination(string destination)

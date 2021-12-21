@@ -25,14 +25,17 @@ namespace part2
             List<Train> trains = new List<Train> {train1, train3, train4, train2, train5, train6};
 
             var station = new Station(trains);
-
+            trains.Sort(new Station());
             try
             {
                 Console.WriteLine("Введите айди рейса для поиска рейсов: ");
                 var id = Console.ReadLine();
                 Console.WriteLine("\n" + station.FindRaceByIndex(id) + "\n");
-                Console.WriteLine("Введите дату для поиска рейсов после введённой даты: ");
-                var dt = Convert.ToDateTime(Console.ReadLine());
+                Console.WriteLine("Введите дату для поиска рейсов после введённой даты (гггг.мм.дд.чч.мм.сс): ");
+                string[] str=new string[5];
+                str = Console.ReadLine().Split(".");
+                var dt = new DateTime(Convert.ToInt32(str[0]), Convert.ToInt32(str[1]), Convert.ToInt32(str[2]),
+                    Convert.ToInt32(str[3]), Convert.ToInt32(str[4]), Convert.ToInt32(str[5]));
                 Console.WriteLine("\n"+station.FindRacesAfterNecessaryDateTime(dt)+"\n");
                 Console.WriteLine("Введите пункт назначения для поиска рейсов: ");
                 var destination = Console.ReadLine();
